@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+.caixa{
+    margin-left: 7%;
+    background-color: #A7C6D9;
+    width: 90%;
+    height: 400px;
+}
+
+.caixa > *{
+    display: inline-block;
+}
+
+#quilombola{
+    width: 37%;   
+    position: absolute;
+    margin-left: 2%;
+    top: 270px;
+}
+
+.tituloc{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Rambla', sans-serif;
+}
+
+.txtdoc{
+    font-family: 'Rambla', sans-serif;
+}
+
+#bib{
+    position:absolute;
+    top: 700px;
+    margin-left: 2%;
+    width: 37%;
+}
+
+#canhoba{
+    position:absolute;
+    top: 1130px;
+    margin-left: 2%;
+    width: 37%;
+}
+
+#museu{
+    position:absolute;
+    top: 1560px;
+    margin-left: 2%;
+    width: 37%;
+}

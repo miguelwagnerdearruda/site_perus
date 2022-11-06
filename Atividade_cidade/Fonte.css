@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+.boxfont{
+    width: 35%;
+    height: 350px;
+    background-color: #0367A6;
+    margin-left: 10%;
+
+}
+
+.parte1 > div{
+    display: inline-block;
+}
+
+.titfont{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Rambla', sans-serif;
+
+}
+
+.linkfont{
+    margin-left: 18%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Rambla', sans-serif;
+}
+
+.linkfont:hover{
+    text-decoration: underline;
+}

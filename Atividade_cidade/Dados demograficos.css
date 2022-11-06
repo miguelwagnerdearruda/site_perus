@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+.dados-demograficos > *{
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.contexto{
+    width: 34%;
+    margin-left: 60px;
+}
+
+#conttit{
+    font-size: 26px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: bolder;
+}
+
+.conttxt{
+    font-family: 'Rambla', sans-serif;
+}
+
+#cima{
+    position: absolute;
+}
+
+#baixo{
+    position: absolute;
+    top: 850px;
+}

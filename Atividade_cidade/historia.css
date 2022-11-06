@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+.histtxt{
+    background-color: #758C1F;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.caixa{
+    position: relative;
+    width: 40%;
+    height: 300px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.952);  
+}
+
+.overlay:hover{
+    opacity: 0.9;
+}
+
+.legenda{
+    color: #eff0e8;
+    font-size: 28px;
+    font-family: 'Red Hat Text', sans-serif;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.histtxt > div{
+    display: inline-block;
+}
+
+#lado3{
+    width: 45%;
+    margin-left: 20px;
+    position: absolute;
+    top: 950px;
+
+}
+
+#lado1{
+    width: 45%;
+    margin-left: 20px;
+    position: absolute;
+    top: 250px;
+}
+
+#lado2{
+    width: 45%;
+    margin-left: 20px;
+    position: absolute;
+    top: 590px;
+}
+
+#lado3{
+    width: 45%;
+    margin-left: 20px;
+    position: absolute;
+    top: 930px;
+}
+
+#lado4{
+    width: 45%;
+    margin-left: 20px;
+    position: absolute;
+    top: 1270px;
+}
+
+#lado1 > p, #lado2 > p , #lado3 > p , #lado4 > p{
+    font-family: 'Rambla', sans-serif;
+}

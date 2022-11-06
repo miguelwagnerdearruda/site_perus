@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+#texto1{
+    width: 45%;
+    margin-left: 30px;
+}
+
+#texto2{
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+#t1 > *{
+   display: inline-block;
+}
+
+#vid{
+    margin-left: 7%;
+}
+
+#vid > iframe{
+    width: 40%;
+}
+
+.princtxt{
+    color: rgb(0, 0, 0);
+    font-family: 'Rambla', sans-serif;
+    font-size: 16px;
+}
