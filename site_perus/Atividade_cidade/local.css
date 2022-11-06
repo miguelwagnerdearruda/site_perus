@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+#mapa{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+#icones{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin-left: 15%;
+}
+
+
+.part{
+    padding-right: 240px;
+}
+
+#tit{
+    text-align: center;
+}
+
+.icontxt{
+    text-align: center;
+    font-family: 'Rambla', sans-serif;
+}
+
+.icontit{
+    text-align: center;
+    font-family: 'Rambla', sans-serif; 
+    font-size: 24px;
+    font-weight: bolder;
+}

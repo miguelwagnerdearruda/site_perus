@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+#crime > * {
+    display: inline-block;
+}
+
+.indcrim{
+    font-size: 20px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: bold;
+}
+
+.txtcrim{
+    font-family: 'Rambla', sans-serif;
+}
+
+#txtdom{
+    margin-left: 100px;
+    width: 500px;
+    position: absolute;
+    top: 250px;
+}
+
+
+#txtroub{
+    margin-left:100px;
+    width: 500px;
+    position: absolute;
+    top: 700px;
+}
+
+#txthom{
+    margin-left:100px;
+    width: 500px;
+    position: absolute;
+    top: 1150px;
+}
+
+#violento > *{
+    display: inline-block;
+}
+
+#txtvio{
+    margin-left:100px;
+    width: 500px;
+    position: absolute;
+    top: 1700px;
+}

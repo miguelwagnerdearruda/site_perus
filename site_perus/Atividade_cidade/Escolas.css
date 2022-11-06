@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+
+.conteudo > *{
+    display: inline-block;
+}
+
+.conteudo > img{
+    border-radius: 30px;
+}
+
+
+
+.conteudo{
+    margin-left: 7%;
+    width: 90%;
+    background-color: #A7C6D9;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#escolasp{
+    margin-left: 20px;
+    position: absolute;
+    top: 220px;
+    font-size: 18px;
+}
+
+#escolasd{
+    margin-left: 20px;
+    position: absolute;
+    top: 580px;
+    font-size: 18px;
+}
+
+#escolase{
+    margin-left: 20px;
+    position: absolute;
+    top: 940px;
+    font-size: 18px;
+}
+
+.escolatit{
+    font-size: 24px;
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Rambla', sans-serif;
+}
+
+.tabelesc{
+    font-family: 'Rambla', sans-serif;
+}

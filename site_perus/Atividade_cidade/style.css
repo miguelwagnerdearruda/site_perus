@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgba(221, 201, 201, 0.247) ;
+}
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+
+
+}
+
+#logotxt{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+    color: #fff;
+
+}
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+nav{
+    background-color: #222601;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+
+.logo-txt{
+    color: #fff;
+    font-family: 'Rambla', sans-serif;
+    font-size: 18px;
+}
+
+.logo-txt:hover{
+    color: rgba(255, 255, 255, 0.582);
+}
+nav,ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 0 20px;
+}
+
+#conheca{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 48px;
+}
+#bairro{
+    margin-left: -30px; 
+    font-size: 20px; 
+    color: white;
+    font-family: 'Rambla', sans-serif;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(/Atividade_cidade/imagens/Perus-2014-18.jpg.crdownload) no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color ;
+}
+#txt1{
+    position: absolute;
+    left: 40%;
+    bottom: 300px;
+
+}
+
+
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#texto1{
+    margin-left: 10px;
+    padding-right: 40px;
+}
+
+.texto2{
+    margin-left: 2%;
+    padding-right: 5px;
+}
+
+button{
+    color: #fff;
+    font-weight: 700;
+    background-color: #758C1F;
+    border: 2px black solid;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;}
+
+#notícias{
+    text-align: center;
+    font-family: 'Rambla', sans-serif;
+    font-size: 40px;
+}
+
+.titcont{
+    font-family: 'Rambla', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+
+
+#txt1 > form{
+    margin-left: -35px;
+}
+
+
+.foot > *{
+    margin-left: 20%;
+}
+
+.foot{
+
+    background-color: #222601;
+    height: 250px;
+    font-family: Verdana;
+    font-weight:bold;
+    width:100%;
+    color:Black;
+    bottom:0px;
+    left:0px;    
+    margin: 0;
+    padding: 0;
+}
+
+.tit{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Rambla', sans-serif;
+    color: white;
+
+}
+
+.txtcont{
+    font-family: 'Rambla', sans-serif;
+}
+
+td{
+    width: 300px;
+    height: 30px;
+    padding-left: 10%;
+}
+
+td > .rt{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: 'Rambla', sans-serif;
+}
+
+td > .rt:hover{
+    text-decoration: underline;
+}
+
+nav > ul > li > *{
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: bolder;
+}
